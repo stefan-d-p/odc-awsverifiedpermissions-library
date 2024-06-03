@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Without.Systems.VerifiedPermissions.Library</AssemblyName>
+        <RootNamespace>Without.Systems.VerifiedPermissions</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="13.0.1" />
+        <PackageReference Include="AWSSDK.VerifiedPermissions" Version="3.7.306.10" />
+        <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="1.4.0"/>
+    </ItemGroup>
+
+</Project>
