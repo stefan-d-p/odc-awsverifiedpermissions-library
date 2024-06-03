@@ -48,6 +48,10 @@ public class VerifiedPermissions : IVerifiedPermissions
                 Amazon.VerifiedPermissions.Model.ListPolicyTemplatesRequest>();
             cfg.CreateMap<Structures.UpdatePolicyRequest,
                 Amazon.VerifiedPermissions.Model.UpdatePolicyRequest>();
+            cfg.CreateMap<Structures.UpdatePolicyStoreRequest,
+                Amazon.VerifiedPermissions.Model.UpdatePolicyStoreRequest>();
+            cfg.CreateMap<Structures.UpdatePolicyTemplateRequest,
+                Amazon.VerifiedPermissions.Model.UpdatePolicyTemplateRequest>();
             
             /*
              * Response Mappings
@@ -77,6 +81,10 @@ public class VerifiedPermissions : IVerifiedPermissions
                 Structures.ListPolicyTemplatesResponse>();
             cfg.CreateMap<Amazon.VerifiedPermissions.Model.UpdatePolicyResponse,
                 Structures.UpdatePolicyResponse>();
+            cfg.CreateMap<Amazon.VerifiedPermissions.Model.UpdatePolicyStoreResponse,
+                Structures.UpdatePolicyStoreResponse>();
+            cfg.CreateMap<Amazon.VerifiedPermissions.Model.UpdatePolicyTemplateResponse,
+                Structures.UpdatePolicyTemplateResponse>();
             
             /*
              * Individual Mappings

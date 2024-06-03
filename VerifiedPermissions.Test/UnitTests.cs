@@ -1,6 +1,4 @@
 
-using Amazon.VerifiedPermissions.Model;
-
 namespace Without.Systems.VerifiedPermissions.Test;
 
 public class Tests
@@ -10,7 +8,7 @@ public class Tests
     [SetUp]
     public void Setup()
     {
-        
+ 
     }
 
     
